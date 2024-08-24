@@ -14,7 +14,8 @@ Pre Made Google Auth System Using Nodejs Express Express-session Passport
 apt update && apt install nodejs npm git
 ```
 8) Clone The Repo
-``` git clone https://github.com/samir717le/Google-Auth.git
+```
+git clone https://github.com/samir717le/Google-Auth.git
 ```
 9) cd into it ``` cd Google-Auth ```
 10) install Dependencies ``` npm i ```
