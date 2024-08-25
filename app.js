@@ -8,7 +8,7 @@ const app = express();
 const GOOGLE_CLIENT_ID = YOUR_GOOGLE_CLIENT_ID;
 const GOOGLE_CLIENT_SECRET = YOUR_GOOGLE_CLIENT_SECRET;
 
-const CALLBACK_URI = YOUR_CALLBACK_URL_PATH;
+const CALLBACK_URI = '/auth/google/callback';
 
 // EJS setup
 app.set('view engine', 'ejs');
