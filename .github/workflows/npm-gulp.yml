@@ -23,5 +23,7 @@ jobs:
 
     - name: Build
       run: |
+        export GOOGLE_CLIENT_ID=${{ secret.GOOGLE_CLIENT_ID }}
+        export GOOGLE_CLIENT_SECRET=${{ secret.GOOGLE_CLIENT_SECRET }}
         npm install
         node Test
