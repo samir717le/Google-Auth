@@ -5,8 +5,8 @@ const GoogleStrategy = require('passport-google-oauth20').Strategy;
 const app = express();
 // Config 
 
-const GOOGLE_CLIENT_ID = ${{ GOOGLE_CLIENT_ID }} ;
-const GOOGLE_CLIENT_SECRET = ${{ GOOGLE_CLIENT_SECRET }};
+const GOOGLE_CLIENT_ID = process.env.GOOGLE_CLIENT_ID;
+const GOOGLE_CLIENT_SECRET = process.env.GOOGLE_CLIENT_SECRET;
 
 const CALLBACK_URI = '/auth/google/callback';
 
