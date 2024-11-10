@@ -1,5 +1,4 @@
-name: NodeJS with Gulp
-
+name:  Testing 
 on:
   push:
     branches: [ "main" ]
@@ -25,4 +24,4 @@ jobs:
     - name: Build
       run: |
         npm install
-        gulp
+        node app
